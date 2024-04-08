@@ -97,6 +97,7 @@ body.dark {
 .sidebar li .text {
     color: var(--text-color);
     transition: var(--tran-02);
+    white-space: nowrap;
 }
 
 .sidebar header {
@@ -247,7 +248,7 @@ body.dark .menu-bar .mode i.moon {
     min-width: 60px;
     cursor: pointer;
     border-radius: 6px;
-    background: var(--primary-color-light);
+    background: transparent;
     transition: var(--tran-05);
 }
 
